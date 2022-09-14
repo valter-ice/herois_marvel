@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  background: #e5e5e5;
+}
+
+.caixa-descontos {
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  background: #1cd1b0;
+  padding: 15px;
+  z-index: 10;
+
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+
+header {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 101px;
+  left: 0px;
+  top: 20px;
+  background: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+}
+
+section {
+  position: absolute;
+  width: 100%;
+  height: 597.01px;
+  top: 180px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.caixa-heroi {
+  width: 374px;
+  height: 600px;
+  border-radius: 30px;
+  background: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  background-repeat: no-repeat;
+  background-size: 400px;
+}
+
+.batman{
+  background-image: url("../img/Bat_caverna.png");
+}
+/*.Batman {
+  background-image: url("../img/Bat_caverna.png");
+}*/
+
+.Arlequina {
+  background-image: url("../img/Fundo_Arlequina.png");
+}
+.curtida {
+  position: relative;
+  left: 3%;
+  right: 0%;
+  bottom: 15%;
+}
+
+h2 {
+  position: relative;
+  width: 137.69px;
+  height: 39.5px;
+  left: 31%;
+  top: 20%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+.foto-perfil {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  left: 20%;
+  top: 130px;
+  border-radius: 550px;
+}
+
+p {
+  position: relative;
+  width: 301.33px;
+  height: 127.53px;
+  left: 10%;
+  top: 20%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #333333;
+}
+
+button {
+  position: relative;
+  width: 145.34px;
+  height: 54.76px;
+  left: 31%;
+  top: 22%;
+  background: #00669f;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #f3f3f3;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 21px;
+  left: 0px;
+  top: 972px;
+  padding: 15px;
+  background: #00669f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff9f9;
+}
